@@ -93,7 +93,6 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
 | Pin RX              | RX          | Free                      |
 | Pin TX              | TX          | Free                      |
 
----
 
 ## 🚀 Pedro Project Repositories
 
@@ -112,3 +111,7 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
   🎓 Education — STEM lessons, activities, and teaching material using the Pedro robot for schools.
 
 ---
+
+</br>
+
+> Made with ❤️ by [@almtzr](https://github.com/almtzr)
