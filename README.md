@@ -92,3 +92,5 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
 | Pin A5              | A5          | Free                      |
 | Pin RX              | RX          | Free                      |
 | Pin TX              | TX          | Free                      |
+
+---
