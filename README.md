@@ -72,33 +72,8 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
 
 ## Mapping Pedro Board & Arduino
 
-| Pedro Board  | Arduino Pin | Function    |
-|--------------|-------------|-------------|
-| Servo 1      | D5   | PWM Signal         |
-| Servo 2      | D6   | PWM Signal         |
-| Servo 3      | D9   | PWM Signal         |
-| Servo 4      | D10  | PWM Signal         |
-| Button 1     | A0   | Select Servo       |
-| Button 2     | A1   | Rotation (forward)  |
-| Button 3     | A2   | Rotation (backward) |
-| LED Servo 1  | D13  | Servo LED         |
-| LED Servo 2  | D11  | Servo LED         |
-| LED Servo 3  | D8   | Servo LED         |
-| LED Servo 4  | D7   | Servo LED         |
-| NRF24L01 CE  | D4   | SPI Enable         |
-| NRF24L01 CSN | D12  | SPI Chip Select    |
-| OLED (SDA)   | D2   | I2C Data                  |
-| OLED (SCL)   | D3   | I2C Clock                 |
-| HC-05 (TX)   | D0   | UART RX        |
-| HC-05 (RX)   | D1   | UART TX        |
-| ESP8266 (TX) | D0   | UART RX             |
-| ESP8266 (RX) | D1   | UART TX             |
-| Switch 1     | N/A  | Select Mode Radio, Bluetooth, WiFi |
-| Switch 2     | N/A  | Select Mode AT (HC-05)  |
-| Pin A3       | A3   | Free                      |
-| Pin A4       | A4   | Free                      |
-| Pin A5       | A5   | Free                      |
-| Pin RX       | RX   | Free                      |
-| Pin TX       | TX   | Free                      |
+<div align="left">
+    <img src="img/mapping.png" width="100%">
+</div>
 
 ---
