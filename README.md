@@ -1,14 +1,14 @@
-# Pedro Board
+# 📂 Pedro Board
 
 ## Two versions: 
 
 - **Rev2** with 2 integrated modules: **NRF24L01** and **OLED 128x64**.
 - **Rev3** with 4 integrated modules: Rev2 modules + **ESP8266-01** and **HC-05**
 
-## Spec Pedro Board Rev3: 
+## Pedro Board Rev3: 
 
 <div align="left">
-    <img src="img/Spec_Board_Rev3.png" width="50%">
+    <img src="img/Spec_Board_Rev3.png" width="100%">
 </div>
 
 - **OLED Screen (128x64)**: Visualize data, debug in real-time, or create interactive menus.
@@ -17,17 +17,21 @@
 - **HC-05 Bluetooth Module**: Connect wirelessly to smartphones or other devices. (**Rev3 only**)
   
 <div align="left">
-    <img src="img/pedro_board_rev3.png" width="50%">
+    <img src="img/pedro_board_rev3.png" width="100%">
 </div>
 
-## ✅ Do It Yourself: Pedro Board Rev3
+<br>
+
+## ✅ Do It Yourself
 
 Want to build Pedro from scratch? You can make your own Pedro Board by using the [Gerber file](src="PedroBoard_Rev3"). <br>
 When you get your board, the microcontroller ATmega32u4 doesn’t have the correct bootloader yet, it's delivered with the factory bootloader. To make Pedro work with Arduino IDE, you first need to flash the Arduino Pro Micro bootloader into the Pedro board using the SPI pins as described below.
 
 <div align="left">
-    <img src="img/pedro_board_size.png" width="50%">
+    <img src="img/pedro_board_size.png" width="100%">
 </div>
+
+<br>
 
 ## 🛠️ What You Need:
 
@@ -36,6 +40,8 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
 - An Arduino Pro Micro
 - A Micro USB cable
 - Some wires
+
+<br>
 
 ## 📌 How to flash the bootloader?:
 
@@ -59,8 +65,10 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
 🎯 Once done, disconnect the SPI wiring, plug the Pedro board to the PC and check in "Tools > Port" to ensure the board is recognized by Arduino IDE.
 
 <div align="left">
-    <img src="img/pedro_bootloader_wiring.png" width="80%">
+    <img src="img/pedro_bootloader_wiring.png" width="100%">
 </div>
+
+<br>
 
 ## Mapping Pedro Board & Arduino
 
