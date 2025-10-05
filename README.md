@@ -2,8 +2,8 @@
 
 ## Two versions: 
 
-- **Rev2** with 2 integrated modules: **NRF24L01** and **OLED 128x64**.
-- **Rev3** with 4 integrated modules: Rev2 modules + **ESP8266-01** and **HC-05**
+- **Rev2**: **NRF24L01** and **OLED 128x64**
+- **Rev3**: Rev2 and **ESP8266-01** and **HC-05**
 
 ## Pedro Board Rev3: 
 
@@ -41,8 +41,6 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
 - A Micro USB cable
 - Some wires
 
-<br>
-
 ## 📌 How to flash the bootloader?:
 
 - Open Arduino IDE
@@ -73,7 +71,7 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
 ## Mapping Pedro Board & Arduino
 
 <div align="left">
-    <img src="img/mapping.png" width="100%">
+    <img src="img/mapping.png" width="80%">
 </div>
 
 ---
