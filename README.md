@@ -2,8 +2,8 @@
 
 ## Two versions: 
 
-- **Rev2**: **NRF24L01** and **OLED 128x64**
-- **Rev3**: Rev2 and **ESP8266-01** and **HC-05**
+- **Rev2**: **NRF24L01** + **OLED 128x64**
+- **Rev3**: Rev2 + **ESP8266-01** + **HC-05**
 
 ## Pedro Board Rev3: 
 
@@ -20,8 +20,6 @@
     <img src="img/pedro_board_rev3.png" width="100%">
 </div>
 
-<br>
-
 ## ✅ Do It Yourself
 
 Want to build Pedro from scratch? You can make your own Pedro Board by using the [Gerber file](src="PedroBoard_Rev3"). <br>
@@ -30,8 +28,6 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
 <div align="left">
     <img src="img/pedro_board_size.png" width="100%">
 </div>
-
-<br>
 
 ## 🛠️ What You Need:
 
@@ -66,9 +62,7 @@ When you get your board, the microcontroller ATmega32u4 doesn’t have the corre
     <img src="img/pedro_bootloader_wiring.png" width="100%">
 </div>
 
-<br>
-
-## Mapping Pedro Board & Arduino
+## Mapping Board Rev3 & Arduino
 
 <div align="left">
     <img src="img/mapping.png" width="80%">
