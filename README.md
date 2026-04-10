@@ -30,7 +30,7 @@ Each Pedro repository serves a specific role in the ecosystem:
 
 ## ✅ Do It Yourself
 
-Want to build Pedro from scratch? You can make your own Pedro Board by using the [Gerber file](src="PedroBoard_Rev3"). <br>
+Want to build Pedro from scratch? You can make your own Pedro Board by using the Gerber files. <br>
 When you get your board, the microcontroller ATmega32u4 doesn’t have the correct bootloader yet, it's delivered with the factory bootloader. To make Pedro work with Arduino IDE, you first need to flash the Arduino Pro Micro bootloader into the Pedro board using the SPI pins as described below.
 
 <div align="left">
